@@ -7,7 +7,7 @@
             <ul style="margin: 2px; padding: 10px">
               <li>Die Zuckerrübenproduktion ist mehr und mehr von Wirkstoffverlusten in Pflanzenschutzmitteln betroffen. Landwirtinnen und Landwirte brauchen Alternativen. Hier ist es oft hilfreich zu schauen, was BerufskollegInnen in der Region machen.</li>
               <br>
-              <li>In dieser kurzen (maximal 10 Minuten) Online-Umfrage geht es um Unkrautbekämpfung in Zuckerrüben durch.  Ziel der Umfrage ist es, besser zu verstehen, welche Rolle der Austausch zwischen KollegInnen als Informationsquelle für Entscheidungen über neue Anbaupraktiken spielt.</li>
+              <li>In dieser kurzen (maximal 10 Minuten) Online-Umfrage geht es um Unkrautbekämpfung in Zuckerrüben.  Ziel der Umfrage ist es, besser zu verstehen, welche Rolle der Austausch zwischen KollegInnen als Informationsquelle für Entscheidungen über neue Anbaupraktiken spielt.</li>
               <br>
               <li>Als LandwirtIn haben Sie online die Möglichkeit, anonym Angaben zu machen, wie Sie Unkraut bekämpfen. Hierbei interessieren wir uns nicht nur für LandwirtInnen die bereits Erfahrung mit mechanischer Unkrautbekämpfung haben. Für uns ist es ebenso wertvoll zu erfahren, warum LandwirtInnen diese Techniken nicht einsetzen oder ob sie planen, sie in Zukunft zu nutzen!</li>
               <br>
