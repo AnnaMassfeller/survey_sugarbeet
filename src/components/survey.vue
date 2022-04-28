@@ -7,7 +7,7 @@
             <ul style="margin: 2px; padding: 10px">
               <li>Die Zuckerrübenproduktion ist mehr und mehr von Wirkstoffverlusten in Pflanzenschutzmitteln betroffen. Landwirtinnen und Landwirte brauchen Alternativen. Hier ist es oft hilfreich zu schauen, was BerufskollegInnen in der Region machen.</li>
               <br>
-              <li>Wir von der Uni Bonn führen eine kurze (maximal 10 Minuten) Online-Umfrage zum Thema Unkrautbekämpfung in Zuckerrüben durch.  Ziel der Umfrage ist es, besser zu verstehen, welche Rolle der Austausch zwischen KollegInnen als Informationsquelle für Entscheidungen über neue Anbaupraktiken spielt.</li>
+              <li>In dieser kurzen (maximal 10 Minuten) Online-Umfrage geht es um Unkrautbekämpfung in Zuckerrüben durch.  Ziel der Umfrage ist es, besser zu verstehen, welche Rolle der Austausch zwischen KollegInnen als Informationsquelle für Entscheidungen über neue Anbaupraktiken spielt.</li>
               <br>
               <li>Als LandwirtIn haben Sie online die Möglichkeit, anonym Angaben zu machen, wie Sie Unkraut bekämpfen. Hierbei interessieren wir uns nicht nur für LandwirtInnen die bereits Erfahrung mit mechanischer Unkrautbekämpfung haben. Für uns ist es ebenso wertvoll zu erfahren, warum LandwirtInnen diese Techniken nicht einsetzen oder ob sie planen, sie in Zukunft zu nutzen!</li>
               <br>
@@ -84,15 +84,7 @@
                         <li>Alle Ergebnisse werden anonymisiert analysiert. Wenn Sie möchten, senden wir Ihnen die zusammengefassten Ergebnisse der Studie zu. </li>
                         <li>Dazu können Sie im Anschluss an die Studie Ihre e-Mail Adresse angeben.</li>
                         <li>Zur Hilfe haben wir in der Umfrage Tipps hinterlegt, die Sie über das ?-Symbol aufrufen können.</li>
-                        <li>Die in der Umfrage gewählte männliche Form bezieht sich zugleich auf weibliche, diverse und männliche Personen.</li>
-                        <li>Bei Fragen wenden Sie sich bitte an:</li>
-                        <p style="margin-top: 10px; padding: 0px">
-                        <b>Anna Massfeller</b>
-                        <br/>
-                        
-                        Doktorandin am Institut für Lebensmittel- und Ressourcenökonomik, Universität Bonn
-                        <br />
-                        E-mail: <a href="mailto:anna.massfeller@ilr.uni-bonn.de" style="color: #1adee8">anna.massfeller@ilr.uni-bonn.de</a> 
+                        <li>Die in der Umfrage gewählte männliche Form bezieht sich zugleich auf weibliche, diverse und männliche Personen.</li>                      
                        </p>
                        </ul>
                       </legend>
@@ -1318,21 +1310,9 @@
 
       <section>
         <legend>
-            Möchten Sie an dem Gewinnspiel teilnehmen?
+            Möchten Sie an dem Gewinnspiel teilnehmen? Dann klicken Sie bitte auf den folgenden Link: 
+            <a href="http...." target = "_blank" > http....</a>
         </legend>
-          <input
-            type="radio"
-            value="1"
-            v-model="surveyData.question10.value"
-          />
-          <label for="one">Ja</label>
-          <br />
-          <input 
-          type="radio" 
-          value="0" 
-          v-model="surveyData.question10.value" 
-          />
-          <label for="one">Nein</label>
           <br />
           <br />
       </section> 
@@ -1350,13 +1330,6 @@
         </div>
       <div style="margin: 5px; padding: 5px; border: 1px; border-style: ridge; border-color: white; border-radius: 11px 11px 11px 11px;">
       <legend>
-          Bei Fragen melden Sie sich bitte bei:
-          <br />
-          <br />
-          <i>Anna Massfeller, Doktorandin am Institut für Lebensmittel- und Ressourcenökonomik, Universität Bonn
-          <br />
-          E-mail: <a href="mailto:anna.massfeller@ilr.uni-bonn.de" style="color: #1adee8">anna.massfeller@ilr.uni-bonn.de</a>
-          </i>
       </legend>
       </div>
   <button @click="step-=1; errors = []">Zurück</button>
