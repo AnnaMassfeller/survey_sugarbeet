@@ -1732,7 +1732,7 @@ export default {
         this.errors = []
          if ((this.surveyData.question9.value == null)){
            this.errors.push(
-                'Bitte geben Sie an, ob Sie die Ergebnisse per E-Mail erhalten und an dem Gewinnspiel teilnehmen möchten')
+                'Bitte geben Sie an, ob Sie die Ergebnisse per E-Mail erhalten möchten')
           } 
          else if ((this.validateEmail(this.surveyData.farmerEmail.value) == false && this.surveyData.question9.value == "1") || (this.validateEmail(this.surveyData.farmerEmail.value) == false && this.surveyData.question10.value == "1")) {
             this.errors.push(
