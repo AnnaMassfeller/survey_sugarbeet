@@ -1367,7 +1367,7 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-var PouchDB = require('pouchdb');
+const PouchDB = require('pouchdb');
 let pouchDb = PouchDB.default.defaults();
 let db = new pouchDb(process.env.VUE_APP_DBKEY, {
   skip_setup: true
@@ -1442,6 +1442,7 @@ export default {
       currentFarm: '',
       surveyData: {
         _id: new Date().toISOString(),
+        url_link: window.location.href,
         question0: {consent: null},
         question1: {value: null},
         question2: {
@@ -1729,7 +1730,7 @@ export default {
       }
       else if (this.step == 10){
         this.errors = []
-         if ((this.surveyData.question9.value == null) || (this.surveyData.question10.value == null)){
+         if ((this.surveyData.question9.value == null)){
            this.errors.push(
                 'Bitte geben Sie an, ob Sie die Ergebnisse per E-Mail erhalten und an dem Gewinnspiel teilnehmen möchten')
           } 
