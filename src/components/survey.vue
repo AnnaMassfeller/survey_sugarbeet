@@ -1275,7 +1275,7 @@
             Vielen Dank, dass Sie sich die Zeit genommen haben, an der Umfrage teilzunehmen.
             </p>
             <p>
-            Sie haben im nächsten Schritt die Möglichkeit bei unserem Gewinnspiel mitzumachen.
+            Sie haben im nächsten Schritt die Möglichkeit an unserem Gewinnspiel teilzunehmen.
             Unter je 100 Teilnehmer/innen verlosen wir drei Gutscheine für Engelbert Strauss im Wert von 50 €.
             Wenn Sie möchten, senden wir Ihnen auch die zusammengefassten Ergebnisse der Studie zu.
             Klicken Sie dazu einfach auf "Abgeben und weiter zu agri EXPERTS". Dort können Sie Ihre e-Mail Addresse angeben. Diese wird getrennt von Ihren Angaben gespeichert und es kann keine Verbindung zu Ihren Antworten hergestellt werden.
