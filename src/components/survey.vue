@@ -1278,7 +1278,7 @@
             Sie haben im nächsten Schritt die Möglichkeit bei unserem Gewinnspiel mitzumachen.
             Unter je 100 Teilnehmer/innen verlosen wir drei Gutscheine für Engelbert Strauss im Wert von 50 €.
             Wenn Sie möchten, senden wir Ihnen auch die zusammengefassten Ergebnisse der Studie zu.
-            Klicken Sie dazu einfach auf "Abgeben und weiter zu AgriExperts". Dort können Sie Ihre e-Mail Addresse angeben. Diese wird getrennt von Ihren Angaben gespeichert und es kann keine Verbindung zu Ihren Antworten hergestellt werden.
+            Klicken Sie dazu einfach auf "Abgeben und weiter zu agri EXPERTS". Dort können Sie Ihre e-Mail Addresse angeben. Diese wird getrennt von Ihren Angaben gespeichert und es kann keine Verbindung zu Ihren Antworten hergestellt werden.
             Sie werden dann lediglich über die Ergebnisse/ das Gewinnspiel informiert. Ansonsten erhalten Sie keine E-Mails von uns.
             </p>
         </legend>
@@ -1288,13 +1288,13 @@
         
       
   <button style="text-align:center; font-size: 16px; height: 60px; width: 20%; font-weight: bold;" @click="step-=1; errors = []">Zurück</button>
-  <button style="text-align:center; font-size: 16px; height: 60px; width: 40%; font-weight: bold;" @click.prevent="next()" @click="scrollToTop();">Abgeben und weiter zu AgriExperts</button>
+  <button style="text-align:center; font-size: 16px; height: 60px; width: 40%; font-weight: bold;" @click.prevent="next()" @click="scrollToTop();">Abgeben und weiter zu agri EXPERTS</button>
   </div>
 
     <div v-if="step === 'done'">
       <h1>Fertig!</h1>
       <p style="text-align: center">Vielen Dank für die Teilnahme an der Umfrage. Ihre Daten wurden nun gespeichert. </p>
-      <p <a href="https://hub.agri-experts.de/c/a/6qbi86qZcS6FFjnlsm17wN" target="_blank" style="color: #1adee8">Hier gelangen Sie zu AgriExperts.</a> 
+      <p <a href="https://hub.agri-experts.de/c/a/6qbi86qZcS6FFjnlsm17wN" target="_blank" style="color: #1adee8">Hier gelangen Sie zu agri EXPERTS.</a> 
         Dort können Sie an dem Gewinnspiel teilnehmen und angeben, ob Sie die Ergebnisse der Umfrage per Mail erhalten wollen. </p>
       <br>
       <!-- {{ backendResponse }} -->
