@@ -1294,7 +1294,7 @@
     <div v-if="step === 'done'">
       <h1>Fertig!</h1>
       <p style="text-align: center">Vielen Dank für die Teilnahme an der Umfrage. Ihre Daten wurden nun gespeichert. </p>
-      <p <a href="https://hub.agri-experts.de/c/a/6qbi86qZcS6FFjnlsm17wN" target="https://hub.agri-experts.de/c/a/6qbi86qZcS6FFjnlsm17wN" style="color: #1adee8">Hier gelangen Sie zu AgriExperts.</a> 
+      <p <a href="https://hub.agri-experts.de/c/a/6qbi86qZcS6FFjnlsm17wN" target="_blank" style="color: #1adee8">Hier gelangen Sie zu AgriExperts.</a> 
         Dort können Sie an dem Gewinnspiel teilnehmen und angeben, ob Sie die Ergebnisse der Umfrage per Mail erhalten wollen. </p>
       <br>
       <!-- {{ backendResponse }} -->
@@ -1687,6 +1687,7 @@ export default {
       }
       else if (this.step == 10){
         this.errors = []
+        //changed the line below to == "1" so that it always evaluates false, as this question isn't relevant anymore
          if ((this.surveyData.question9.value == "1")){
            this.errors.push(
                 'Bitte geben Sie an, ob Sie die Ergebnisse per E-Mail erhalten möchten')
