@@ -180,7 +180,7 @@
                   Research Group of Hugo Storm “Data science in agricultural economics”
                   <br>Niebuhrstraße 1a, 53113 Bonn
                   <br>
-                  E-mail: <a href="mailto:anna.massfeller@ilr.uni-bonn.de" style="color: #1adee8">anna.massfeller@ilr.uni-bonn.de</a></p>
+                  E-mail: anna.massfeller@ilr.uni-bonn.de</p>
                   </li>
                 <li>
                   <p style="margin-bottom: 0in; line-height: 108%"><b>Zuständiger Datenschutzbeauftragter der Universität Bonn:</b></p>
@@ -188,11 +188,11 @@
                   <br>
                   Genscherallee 3, 53113 Bonn
                   <br>
-                  E-mail: <a href="mailto:joerg.hartmann@uni-bonn.de" style="color: #1adee8">joerg.hartmann@uni-bonn.de</a>
+                  E-mail: joerg.hartmann@uni-bonn.de
                   <br>
-                  <a href="tel:+49228736758" style="color: #1adee8">+ 49 (0)228 -73 -6758</a>
+                  + 49 (0)228 -73 -6758
                   <br> 
-                  <a href="https://www.datenschutz.uni-bonn.de/" target="https://www.datenschutz.uni-bonn.de" style="color: #1adee8">https://www.datenschutz.uni-bonn.de</a></p>
+                  https://www.datenschutz.uni-bonn.de</p>
                 </li>
                 <p style="margin-bottom: 0in; line-height: 108%"></p>
                 <li>
@@ -1275,70 +1275,27 @@
             Vielen Dank, dass Sie sich die Zeit genommen haben, an der Umfrage teilzunehmen.
             </p>
             <p>
-            Sie haben nun die Möglichkeit bei unserem Gewinnspiel mitzumachen.
+            Sie haben im nächsten Schritt die Möglichkeit bei unserem Gewinnspiel mitzumachen.
             Unter je 100 Teilnehmer/innen verlosen wir drei Gutscheine für Engelbert Strauss im Wert von 50 €.
-            Dazu können Sie unten Ihre E-Mail-Adresse angeben. Diese wird getrennt von Ihren Angaben gespeichert und es kann keine Verbindung zu Ihren Antworten hergestellt werden.
+            Wenn Sie möchten, senden wir Ihnen auch die zusammengefassten Ergebnisse der Studie zu.
+            Klicken Sie dazu einfach auf "Abgeben und weiter zu AgriExperts". Dort können Sie Ihre e-Mail Addresse angeben. Diese wird getrennt von Ihren Angaben gespeichert und es kann keine Verbindung zu Ihren Antworten hergestellt werden.
             Sie werden dann lediglich über die Ergebnisse/ das Gewinnspiel informiert. Ansonsten erhalten Sie keine E-Mails von uns.
             </p>
-            <p>
-            Wenn Sie möchten, senden wir Ihnen auch die zusammengefassten Ergebnisse der Studie zu.
-            </p>
         </legend>
       </section>
-      </div>
-       <div style="margin: 5px; padding: 5px; border: 1px; border-style: ridge; border-color: white; border-radius: 11px 11px 11px 11px;">
-      <section>
-        <legend>
-            Möchten Sie die zusammengefassten Ergebnisse der Studie per Mail erhalten?
-        </legend>
-        <input
-          type="radio"
-          value="1"
-          v-model="surveyData.question9.value"
-        />
-        <label>Ja</label>
-        <br />
-        <input 
-        type="radio" 
-        value="0" 
-        v-model="surveyData.question9.value" 
-        />
-        <label>Nein</label>
-        <br />
-      </section>
-      <br />
-
-      <section>
-        <legend>
-            Möchten Sie an dem Gewinnspiel teilnehmen? Dann klicken Sie bitte auf den folgenden Link: 
-            <a href="http...." target = "_blank" > http....</a>
-        </legend>
-          <br />
-          <br />
-      </section> 
-      </div>                     
-        <div style="margin: 5px; padding: 5px; border: 1px; border-style: ridge; border-color: white; border-radius: 11px 11px 11px 11px;" v-if="surveyData.question9.value=='1' || surveyData.question10.value=='1'">  
-            <legend>
-            Bitte geben Sie hier Ihre E-Mail-Adresse an. Diese Daten werden gesondert gespeichert und es besteht keine Verbindung zu Ihren Antworten in der Umfrage.
-            </legend>           
-            <br />
-            <div class="mb-3">
-                <label for="farmerEmail" class="form-label"><b>E-mail Adresse:</b></label>
-                <input v-model="surveyData.farmerEmail.value" type="email" class="form-control" aria-describedby="emailHelp" id="farmerEmail" placeholder="mueller@gmx.de" required>
-                <small id="emailHelp" class="form-text text-muted">Wir werden Ihre E-Mail-Adresse nicht an Dritte weitergeben.</small>
-            </div>
-        </div>
-      <div style="margin: 5px; padding: 5px; border: 1px; border-style: ridge; border-color: white; border-radius: 11px 11px 11px 11px;">
-      <legend>
-      </legend>
-      </div>
-  <button @click="step-=1; errors = []">Zurück</button>
-  <button @click.prevent="next()" @click="scrollToTop();">Abgeben</button>
+      </div>                        
+        
+        
+      
+  <button style="text-align:center; font-size: 16px; height: 60px; width: 20%; font-weight: bold;" @click="step-=1; errors = []">Zurück</button>
+  <button style="text-align:center; font-size: 16px; height: 60px; width: 40%; font-weight: bold;" @click.prevent="next()" @click="scrollToTop();">Abgeben und weiter zu AgriExperts</button>
   </div>
 
     <div v-if="step === 'done'">
       <h1>Fertig!</h1>
-      <p style="text-align: center">Vielen Dank für die Teilnahme an der Umfrage. Ihre Daten wurden nun gespeichert.</p>
+      <p style="text-align: center">Vielen Dank für die Teilnahme an der Umfrage. Ihre Daten wurden nun gespeichert. </p>
+      <p <a href="https://hub.agri-experts.de/c/a/6qbi86qZcS6FFjnlsm17wN" target="https://hub.agri-experts.de/c/a/6qbi86qZcS6FFjnlsm17wN" style="color: #1adee8">Hier gelangen Sie zu AgriExperts.</a> 
+        Dort können Sie an dem Gewinnspiel teilnehmen und angeben, ob Sie die Ergebnisse der Umfrage per Mail erhalten wollen. </p>
       <br>
       <!-- {{ backendResponse }} -->
       <br>
@@ -1730,7 +1687,7 @@ export default {
       }
       else if (this.step == 10){
         this.errors = []
-         if ((this.surveyData.question9.value == null)){
+         if ((this.surveyData.question9.value == "1")){
            this.errors.push(
                 'Bitte geben Sie an, ob Sie die Ergebnisse per E-Mail erhalten möchten')
           } 
