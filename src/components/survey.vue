@@ -1275,11 +1275,10 @@
             Vielen Dank, dass Sie sich die Zeit genommen haben, an der Umfrage teilzunehmen.
             </p>
             <p>
-            Sie haben im nächsten Schritt die Möglichkeit an unserem Gewinnspiel teilzunehmen.
-            Unter je 100 Teilnehmer/innen verlosen wir drei Gutscheine für Engelbert Strauss im Wert von 50 €.
-            Wenn Sie möchten, senden wir Ihnen auch die zusammengefassten Ergebnisse der Studie zu.
-            Klicken Sie dazu einfach auf "Abgeben und weiter zu agri EXPERTS". Dort können Sie Ihre e-Mail Addresse angeben. Diese wird getrennt von Ihren Angaben gespeichert und es kann keine Verbindung zu Ihren Antworten hergestellt werden.
-            Sie werden dann lediglich über die Ergebnisse/ das Gewinnspiel informiert. Ansonsten erhalten Sie keine E-Mails von uns.
+            Als Dankeschön für die Teilnahme verlosen wir unter je 100 Teilnehmer/innen drei Gutscheine für Engelbert Strauss im Wert von 50 €. Klicken Sie dazu einfach auf „Abgeben“. 
+            Sie haben dann auf der nächsten Seite die Möglichkeit über agri EXPERTS am Gewinnspiel teilzunehmen. 
+            Ihre E-Mail Adresse wird getrennt von Ihren Angaben gespeichert und es kann keine Verbindung zu Ihren Antworten hergestellt werden. 
+            Sie werden dann lediglich über die Ergebnisse/ das Gewinnspiel informiert. Ansonsten erhalten Sie keine E-Mails von uns. 
             </p>
         </legend>
       </section>
@@ -1287,8 +1286,8 @@
         
         
       
-  <button style="text-align:center; font-size: 16px; height: 60px; width: 20%; font-weight: bold;" @click="step-=1; errors = []">Zurück</button>
-  <button style="text-align:center; font-size: 16px; height: 60px; width: 40%; font-weight: bold;" @click.prevent="next()" @click="scrollToTop();">Abgeben und weiter zu agri EXPERTS</button>
+  <button @click="step-=1; errors = []">Zurück</button>
+  <button @click.prevent="next()" @click="scrollToTop();">Abgeben</button>
   </div>
 
     <div v-if="step === 'done'">
