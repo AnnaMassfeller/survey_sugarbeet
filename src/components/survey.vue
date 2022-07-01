@@ -54,14 +54,15 @@
       </keep-alive>
      </div>
      <br>
-     # <div style="padding: 5px; text-align: center">
-    #<button style="background-color: #182f4e;
-                        color: white;
-                        height:80px;
-                        width:30%;
+     <div style="padding: 5px; text-align: center">
+    <button style="background-color: #202b38;
+                      border: #202b38;
+                        color: #202b38;
+                        height:0.1px;
+                        width:0.1%;
                         text-align: center;
                         font-size: 22px;"
-                        @click="step+=1; scrollToTop()">zur Umfrage</button>
+                        @click="step+=1; scrollToTop()"></button>
     </div>
    </div>
       
